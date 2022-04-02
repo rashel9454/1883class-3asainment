@@ -2,24 +2,36 @@
 
 //Question 01//
 //Let’s make a result grade calculator//
+$bangla = 72;
+$english = 82;
+$math = 93;
+$physics = 65;
+$total_marks = $bangla = 72+ $english+$math+$physics;
+$average_mark = $total_marks /4; 
 
-$SubjectA = 75;
-$SubjectB = 80;
-$SubjectC = 65;
-$SubjectD = 90;
-$total_mark = $SubjectA + $SubjectB + $SubjectC + $SubjectD;
+echo "Average Mark: $average_mark";
 
-$All_subject= 4;
-$total_mark /= $All_subject;
-$avarej_mark=true;
-if($total_mark = true){
-    echo "you got A grate";
-}
-else{
-    echo "You Faild";
+echo "<br>";
+$marks =  $average_mark;
+
+if( $marks <= 32 ){
+    echo "Result :F Grade";
+}elseif( ($marks >= 33) && ($marks <= 39) ){
+    echo "Result 😃 Grade";
+}elseif( ($marks >= 40) && ($marks <= 49) ){
+    echo "Result :C Grade";
+}elseif( ($marks >= 50) && ($marks <= 59) ){
+    echo "Result :B Grade";
+}elseif( ($marks >= 60) && ($marks <= 69) ){
+    echo "Result :A- Grade";
+}elseif( ($marks >= 70) && ($marks <= 79) ){
+    echo "Result :A Grade";
+}elseif( ($marks >= 80) && ($marks <= 100) ){
+    echo "Result :C Grade";
+}else{
+   echo "Invalid Number";
 }
 echo "<br>" ;
-
 //Question 02//
 //Let’s make a game with your bike… You are riding a bike, your bike has some functionalities, these are… start, stop, break, gear, signal, headlight.//
 
