@@ -2,11 +2,11 @@
 
 //Question 01//
 //Let’s make a result grade calculator//
-$bangla = 72;
-$english = 82;
-$math = 93;
-$physics = 65;
-$total_marks = $bangla = 72+ $english+$math+$physics;
+$SubjectA = 72;
+$SubjectB = 82;
+$SubjectC= 93;
+$SubjectD = 65;
+$total_marks = $SubjectA = 72+ $SubjectB+$SubjectC+$SubjectD;
 $average_mark = $total_marks /4; 
 
 echo "Average Mark: $average_mark";
@@ -17,7 +17,7 @@ $marks =  $average_mark;
 if( $marks <= 32 ){
     echo "Result :F Grade";
 }elseif( ($marks >= 33) && ($marks <= 39) ){
-    echo "Result 😃 Grade";
+    echo "Result  Grade";
 }elseif( ($marks >= 40) && ($marks <= 49) ){
     echo "Result :C Grade";
 }elseif( ($marks >= 50) && ($marks <= 59) ){
