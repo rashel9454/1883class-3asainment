@@ -15,19 +15,19 @@ echo "<br>";
 $marks =  $average_mark;
 
 if( $marks <= 32 ){
-    echo "Result :F Grade";
+    echo "Result :F grade";
 }elseif( ($marks >= 33) && ($marks <= 39) ){
-    echo "Result  Grade";
+    echo "Result  grade";
 }elseif( ($marks >= 40) && ($marks <= 49) ){
-    echo "Result :C Grade";
+    echo "Result :C grade";
 }elseif( ($marks >= 50) && ($marks <= 59) ){
-    echo "Result :B Grade";
+    echo "Result :B grade";
 }elseif( ($marks >= 60) && ($marks <= 69) ){
-    echo "Result :A- Grade";
+    echo "Result :A- grade";
 }elseif( ($marks >= 70) && ($marks <= 79) ){
-    echo "Result :A Grade";
+    echo "Result :A grade";
 }elseif( ($marks >= 80) && ($marks <= 100) ){
-    echo "Result :C Grade";
+    echo "Result :C grade";
 }else{
    echo "Invalid Number";
 }
